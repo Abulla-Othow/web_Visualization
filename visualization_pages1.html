@@ -1,0 +1,148 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Starter HTML</title>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+    crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- YOUR CUSTOM STYLESHEETS GO HERE -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+      
+    <!-- YOUR HTML CODE GOES HERE -->
+  <!--  <h1>Hello, world!</h1>-->
+      
+      
+<div>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button type="button" class="btn btn-success">Latitude</button>
+      <!--<a class="navbar-brand" href="#">Latitude</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
+          </li>
+          <li class="nav-item">
+            <!--<a class="nav-link" href="#">Link</a>-->
+          </li>
+          <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>-->
+          <li class="nav-item">
+            <!--<a class="nav-link disabled" href="#">Disabled</a>-->
+          </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+                        <!--<li><a >Plots</a></li>-->
+
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="./visualization_pages1.html">Max Temperature</a>
+                          <a class="dropdown-item" href="./visualization_pages2.html">Humidity</a>
+                          <a class="dropdown-item" href="./visualization_pages3.html">Cloudiness</a>
+                          <a class="dropdown-item" href="./visualization_pages4.html">Wind Speed</a>
+                          <!--div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>-->
+                        </div>
+                </li>
+     </ul>
+     
+     <li>
+        <a class="nav-link" href="./Comparisons.html"><span class="c-d"></span>Comparison</a>
+      </li>
+     <li>
+        <a class="nav-link" href="./Data.html"><span class="c-d"></span>Data</a>
+    </li>
+<span></span>
+
+        <!--<form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>-->
+      </div>
+    </nav>
+    <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                        <div class="box">
+                            <div class="page-header">
+                                <h1 class="title">Max Temperature</h1>
+                            </div>
+                            <div class="box">
+                                <img src="./images/Fig1.png" alt="Latitude vs. Max Temperature" height="280" width="280" align="left">
+                                <p class="category"> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemispher. This may be due to the tilt of the earth at the time of the year this dat was gathered. </p>
+                                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="box">
+                            <div class="page-header">
+                                <h1 class="title">Visualizations</h1>
+                            </div>
+                            <div class="box">
+                               <a href="./visualization_pages1.html"><img src="./images/Fig1.png" alt="Latitude vs. Max Temperature" height="160" width="160"></a>
+                               <a href="./visualization_pages2.html"><img src="./images/Fig2.png" alt="Latitude vs. Humidity" height="160" width="160"></a>
+                               <a href="./visualization_pages3.html"><img src="./images/Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
+                               <a href="./visualization_pages4.html"><img src="./images/Fig4.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>  
+<!--Footer-->
+   <footer class="footer">
+       <div class="content-wrap">
+        
+           <h6>Copyright Coding Bootcamp 2018</h6>
+           <hr>
+       </div>
+   </footer>
+  </body>
+</html>
